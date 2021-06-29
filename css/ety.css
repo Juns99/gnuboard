@@ -1,0 +1,51 @@
+@media (min-width: 1px) and (max-width: 1089px) {
+
+	.fixed-header {display:none;}
+	.login{display:block}
+	.ety-mt{margin-top:83px;}
+	.ety-mt-main{margin-top:63px;}
+	.ety-mt-qa{margin-top:110px;}
+	.mpage{display:block;}
+	.ppage{display:none;}
+	.spage{overflow-x:auto;white-space: nowrap;}
+
+}
+
+@media (min-width: 1090px) {
+
+	.fixed-header {display:block;}
+	.login{display:none}
+	.ety-mt-main{margin-top:70px;}
+	.ety-mt{margin-top:130px;}
+	.ety-mt-qa{margin-top:150px;}
+	.mpage{display:none;}
+	.ppage{display:block;}
+
+	/* header */
+	.fixed-header {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+	}
+	.top-line { background:#333333; padding:0; height:0; overflow:hidden }
+	.fixed-top {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+	}
+
+
+}
+
+.mainSliderItme {display:block; height:calc(100vh - 300px); position:relative; background-repeat:no-repeat; background-position:center; background-size:auto 100%}
+.mainSliderItme .mainSliderTitle{
+	position:absolute; top:50%; left:50%;
+	transform:translate(-50%, -50%);
+	text-align:center;}
+.mainSliderItme .mainSliderTitle h3 {font-size:2em;}
+.mainSliderItme .mainSliderTitle p {}
+.mainSliderItme .mainSliderTitle a {border:1px solid #222; padding:5px 10px; display:inline-block}
